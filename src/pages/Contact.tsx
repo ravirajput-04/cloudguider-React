@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm"
+import Cookies from "../components/Cookies"
 
 function Contact() {
   return (
@@ -62,6 +63,7 @@ function Contact() {
         </div>
       </section>
       {/* map section end */}
+      <Cookies />
     </>
   )
 }

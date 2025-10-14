@@ -6,6 +6,7 @@ import ContactForm from "../../components/ContactForm";
 import Counter from "../../components/Counter";
 import Partners from "../../components/Partners";
 import Testimonial from "../../components/Testimonial";
+import Cookies from "../../components/Cookies";
 
 export interface FeatureItem {
   icon: string;
@@ -133,6 +134,7 @@ const SubServicesStructure: React.FC<SubServicesStructureProps> = ({ content }) 
       <CallToAction />
       <Counter />
       <Testimonial />
+      <Cookies />
     </>
   );
 };

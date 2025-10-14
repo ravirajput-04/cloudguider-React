@@ -5,6 +5,7 @@ import CallToAction from "../components/CallToAction";
 import Counter from "../components/Counter";
 import Partners from "../components/Partners";
 import Testimonial from "../components/Testimonial";
+import Cookies from "../components/Cookies";
 
 const servicesData: ServiceItem[] = [
   {
@@ -115,6 +116,7 @@ const ConsultingAndAdvisory: React.FC = () => {
       <CallToAction />
       <Counter />
       <Testimonial />
+      <Cookies />
     </>
   );
 };

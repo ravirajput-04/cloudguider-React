@@ -1,3 +1,5 @@
+import Cookies from "../components/Cookies"
+
 function TermsAndConditions() {
     return (
         <>
@@ -57,6 +59,7 @@ function TermsAndConditions() {
                     </p>
                 </div>
             </section>
+            <Cookies />
 
         </>
     )

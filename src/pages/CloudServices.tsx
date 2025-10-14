@@ -1,5 +1,6 @@
 import AllServices from "../components/AllServices";
 import CallToAction from "../components/CallToAction";
+import Cookies from "../components/Cookies";
 import Counter from "../components/Counter";
 import MainServices from "../components/MainServices";
 import type { ServiceItem } from "../components/MainServices";
@@ -164,6 +165,7 @@ const CloudServices: React.FC = () => {
             <CallToAction />
             <Counter />
             <Testimonial />
+            <Cookies />
         </>
     )
 

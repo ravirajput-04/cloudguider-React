@@ -1,3 +1,5 @@
+import Cookies from "../components/Cookies"
+
 function PrivacyPolicy() {
   return (
     <>
@@ -64,6 +66,7 @@ function PrivacyPolicy() {
           </p>
         </div>
       </section>
+      <Cookies />
 
     </>
   )
