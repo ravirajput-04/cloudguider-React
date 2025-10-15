@@ -19,7 +19,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/cloud-and-devops-consulting.jpg",
     alt: "Cloud Architecture and Design Implementation",
     link: "/cloud-and-devops-consulting",
   },
@@ -34,7 +34,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Kubernetes-Services.png",
+    image: "assets/images/cloud-guider/service-images/cloud-strategy-and-architecture-design.jpg",
     alt: "Migrate to Kubernetes Services",
     link: "/cloud-strategy-and-architecture-design",
     reverse: true,
@@ -50,7 +50,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Monitoring-Services.png",
+    image: "assets/images/cloud-guider/service-images/technology-assessment-and-roadmapping.jpg",
     alt: "Infrastructure Monitoring Services",
     link: "/technology-assessment-and-roadmapping",
   },
@@ -65,7 +65,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Devops.png",
+    image: "assets/images/cloud-guider/service-images/migration-planning-and-execution-support.png",
     alt: "DevOps",
     link: "/migration-plannning-and-execution-support",
     reverse: true,

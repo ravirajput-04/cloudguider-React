@@ -22,7 +22,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+        image: "assets/images/cloud-guider/service-images/cloud-platform-development-and-management.png",
         alt: "Cloud Architecture and Design Implementation",
         link: "/cloud-platform-development-and-management",
     },
@@ -41,7 +41,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Kubernetes-Services.png",
+        image: "assets/images/cloud-guider/service-images/cloud-infrastructure-and-automation.png",
         alt: "Migrate to Kubernetes Services",
         link: "/cloud-infrastructure-and-automation",
         reverse: true,
@@ -60,7 +60,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Monitoring-Services.png",
+        image: "assets/images/cloud-guider/service-images/cloud-migration-and-modernization.png",
         alt: "Infrastructure Monitoring Services",
         link: "/cloud-migration-and-modernization",
     },
@@ -76,7 +76,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Devops.png",
+        image: "assets/images/cloud-guider/service-images/cloud-cost-optimization-and-performance-tuning.png",
         alt: "DevOps",
         link: "/cloud-cost-optimization-and-performance-tuning",
         reverse: true,
@@ -95,7 +95,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Web-development.png",
+        image: "assets/images/cloud-guider/service-images/auto-scaling-and-cloud-performance-engineering.jpeg",
         alt: "Web Development",
         link: "/auto-scaling-and-cloud-performance-engineering",
     },
@@ -112,7 +112,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/security.png",
+        image: "assets/images/cloud-guider/service-images/multi-cloud-and-hybrid-cloud-solutions.png",
         alt: "Robust IT Security Solutions",
         link: "/multi-cloud-and-hybrid-cloud-solutions",
         reverse: true,
@@ -129,7 +129,7 @@ const servicesData: ServiceItem[] = [
                 </p>
             </>
         ),
-        image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+        image: "assets/images/cloud-guider/service-images/hire-cloud-engineers.png",
         alt: "Cloud Architecture and Design Implementation",
         link: "/hire-cloud-engineers",
     },

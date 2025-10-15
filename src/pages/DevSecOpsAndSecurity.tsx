@@ -19,7 +19,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/devsecops-implementation-and-security-automation.png",
     alt: "Cloud Architecture and Design Implementation",
     link: "/devsecops-implementation-and-security-automation",
   },
@@ -35,7 +35,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Kubernetes-Services.png",
+    image: "assets/images/cloud-guider/service-images/cloud-security-architecture-and-compliance.png",
     alt: "Migrate to Kubernetes Services",
     link: "/cloud-security-architecture-and-compliance",
     reverse: true,
@@ -51,7 +51,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Monitoring-Services.png",
+    image: "assets/images/cloud-guider/service-images/vulnerability-management-and-threat-detection.png",
     alt: "Infrastructure Monitoring Services",
     link: "/vulnerability-management-and-threat-detection",
   },
@@ -66,7 +66,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Devops.png",
+    image: "assets/images/cloud-guider/service-images/security-audits-and-penetration-testing.png",
     alt: "DevOps",
     link: "/security-audits-and-penetration-testing",
     reverse: true,
@@ -82,7 +82,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Web-development.png",
+    image: "assets/images/cloud-guider/service-images/hire-devsecops-and-security-experts.png",
     alt: "Web Development",
     link: "/hire-devsecops-and-security-experts",
   },

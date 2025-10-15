@@ -211,8 +211,8 @@ function startAnimations() {
       .from(selector(".footer-s1", ".widget-4"), { opacity: 0, x: 30 }, ">-.6");
   }
   sectionExists(".footer-s1", footerStyle1);
+  
   // hero style 1
-
   function heroStyle3() {
     const tl = gsap.timeline({
       defaults: TL_DEFAULT,

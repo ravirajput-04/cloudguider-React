@@ -2978,22 +2978,22 @@ img {
   width: 100%;
   text-align: center;
   padding: 22px 0px;
-  background: #090b34;
+  background: #fff;
+  border: 1px solid #00006e;
   border-radius: 5px;
   transition: transform 0.2s ease-in-out;
-  filter: brightness(200%) contrast(200%) saturate(100%) blur(0px) hue-rotate(0deg);
 }
 
-.sponsers-slider-s1 .sponsers-container .s-sponser:hover,
+/* .sponsers-slider-s1 .sponsers-container .s-sponser:hover,
 .sponsers-slider-s2 .sponsers-container .s-sponser:hover {
-  /* background: linear-gradient(45deg, rgb(94, 64, 251) 0%, rgb(78, 149, 237) 100%); */
+  background: linear-gradient(45deg, rgb(94, 64, 251) 0%, rgb(78, 149, 237) 100%);
   transform: translateY(-10px);
 }
 
 .sponsers-slider-s1 .sponsers-container .s-sponser:hover img,
 .sponsers-slider-s2 .sponsers-container .s-sponser:hover img {
   filter: brightness(200%) contrast(200%) saturate(100%) blur(0px) hue-rotate(0deg);
-}
+} */
 
 .sponsers-slider-s2 {
   background: none;
@@ -6316,7 +6316,6 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
 .about-s5__thumb .shape {
   position: absolute;
   z-index: -1;
-  top: -10%;
 }
 
 .about-s4__thumb img,
@@ -6335,7 +6334,7 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
 .about-s4__thumb .p-left img:first-child,
 .about-s6__thumb .p-left img:first-child,
 .about-s5__thumb .p-left img:first-child {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .about-s4__thumb .p-right,
@@ -6362,7 +6361,7 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
 
 .about-s4__content .desc,
 .about-s6__content .desc {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 .about-s4__content .btn,
@@ -9491,7 +9490,7 @@ body#blog .b-pagination {
   .about-s4__thumb,
   .about-s5__thumb,
   .about-s6__thumb {
-    margin-top: 120px;
+    margin-top: 20px;
   }
 
   .about-s5__thumb {
@@ -9841,7 +9840,7 @@ body#blog .b-pagination {
   }
 
   .feature-area-s1 {
-    padding-bottom: 65px;
+    padding-bottom: 15px;
   }
 
   .pricing-section-s1 .row .col-md-6 {
@@ -9880,7 +9879,7 @@ body#blog .b-pagination {
 
   #home-3 .about-s4,
   #home-3 .about-s6 {
-    padding-top: 90px;
+    padding-top: 20px;
   }
 
   .hero-s3__content .content-sh {

@@ -1,10 +1,38 @@
-// src/components/MobileOverlay.tsx
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+
+// Custom hook for sticky header functionality
+const useStickyHeader = () => {
+  useEffect(() => {
+    const header = document.querySelector<HTMLElement>(".header-s3");
+    if (!header) {
+      console.warn("Sticky header: '.header-s3' element not found");
+      return;
+    }
+
+    const handleScroll = () => {
+      if (window.scrollY > 500) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    // Initialize on mount
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+};
 
 const MobileOverlay: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const offcanvasRef = useRef<HTMLDivElement>(null);
+
+  useStickyHeader();
 
   // Open/Close handlers
   const openNav = () => {
@@ -20,18 +48,23 @@ const MobileOverlay: React.FC = () => {
   // Close nav on clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (offcanvasRef.current && !offcanvasRef.current.contains(event.target as Node) && isOpen) {
+      if (
+        offcanvasRef.current &&
+        !offcanvasRef.current.contains(event.target as Node) &&
+        isOpen
+      ) {
         closeNav();
       }
     };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [isOpen]);
 
   return (
     <>
-      {/* mobile navigation start */}
-      <header className="mobile-header">
+      {/* Sticky header */}
+      <header className="header-s3 mobile-header">
         <div className="container">
           <div className="mobile-header__container">
             <div className="p-left">
@@ -46,7 +79,7 @@ const MobileOverlay: React.FC = () => {
               </div>
             </div>
             <div className="p-right">
-              <button id="nav-opn-btn" onClick={openNav}>
+              <button id="nav-opn-btn" onClick={openNav} aria-label="Open menu">
                 <i className="fa-solid fa-bars" />
               </button>
             </div>
@@ -59,9 +92,15 @@ const MobileOverlay: React.FC = () => {
         id="offcanvas-nav"
         ref={offcanvasRef}
         className={isOpen ? "open" : ""}
+        aria-hidden={!isOpen}
       >
         <nav className="m-nav">
-          <button id="nav-cls-btn" onClick={closeNav}>
+          <button
+            id="nav-cls-btn"
+            onClick={closeNav}
+            aria-label="Close menu"
+            type="button"
+          >
             <i className="fa-solid fa-xmark" />
           </button>
           <div className="logo">
@@ -331,7 +370,6 @@ const MobileOverlay: React.FC = () => {
           </ul>
         </nav>
       </aside>
-      {/* mobile navigation end */}
     </>
   );
 };

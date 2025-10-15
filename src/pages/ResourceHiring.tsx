@@ -19,7 +19,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/hire-cloud-engineers.png",
     alt: "Cloud Architecture and Design Implementation",
     link: "/hire-cloud-engineers",
   },
@@ -34,7 +34,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Kubernetes-Services.png",
+    image: "assets/images/cloud-guider/service-images/hire-devops-and-sre-engineers.png",
     alt: "Migrate to Kubernetes Services",
     link: "/hire-devops-and-sre-engineers",
     reverse: true,
@@ -50,7 +50,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Monitoring-Services.png",
+    image: "assets/images/cloud-guider/service-images/hire-devsecops-and-security-experts.png",
     alt: "Infrastructure Monitoring Services",
     link: "/hire-devsecops-and-security-experts",
   },
@@ -65,7 +65,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Devops.png",
+    image: "assets/images/cloud-guider/service-images/hire-cloud-architects.png",
     alt: "DevOps",
     link: "/hire-cloud-architects",
     reverse: true,
@@ -81,7 +81,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Web-development.png",
+    image: "assets/images/cloud-guider/service-images/hire-kubernetes-docker-experts.png",
     alt: "Web Development",
     link: "/hire-kubernetes-docker-experts",
   },
@@ -96,7 +96,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/security.png",
+    image: "assets/images/cloud-guider/service-images/hire-data-and-ai-engineers.png",
     alt: "Robust IT Security Solutions",
     link: "/hire-data-scientists-ai-engineers",
     reverse: true,
@@ -112,7 +112,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/hire-technical-consultants.png",
     alt: "Cloud Architecture and Design Implementation",
     link: "/hire-technical-consultants",
   },

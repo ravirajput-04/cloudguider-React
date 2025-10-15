@@ -20,7 +20,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/devops-automation-and-ci-cd-pipelines.png",
     alt: "Cloud Architecture and Design Implementation",
     link: "/devops-automation-and-ci-cd-pipelines",
   },
@@ -36,7 +36,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Kubernetes-Services.png",
+    image: "assets/images/cloud-guider/service-images/infrastructure-as-code-and-configuration-management.png",
     alt: "Migrate to Kubernetes Services",
     link: "/infrastructure-as-code-and-configuration-management",
     reverse: true,
@@ -53,7 +53,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Monitoring-Services.png",
+    image: "assets/images/cloud-guider/service-images/site-reliability-engineering-solutions.png",
     alt: "Infrastructure Monitoring Services",
     link: "/site-reliability-engineering-solutions",
   },
@@ -69,7 +69,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Devops.png",
+    image: "assets/images/cloud-guider/service-images/monitoring-observability-and-incident-management.png",
     alt: "DevOps",
     link: "/monitoring-observability-and-incident-management",
     reverse: true,
@@ -86,7 +86,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Web-development.png",
+    image: "assets/images/cloud-guider/service-images/containerization-and-kubernetes-orchestration.png",
     alt: "Web Development",
     link: "/containerization-and-kubernetes-orchestration",
   },
@@ -102,7 +102,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/security.png",
+    image: "assets/images/cloud-guider/service-images/on-demand-scalability-and-performance-tuning.png",
     alt: "Robust IT Security Solutions",
     link: "/on-demand-scalability-and-performance-tuning",
     reverse: true,
@@ -119,7 +119,7 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Cloud-Architecture.png",
+    image: "assets/images/cloud-guider/service-images/hire-devops-and-sre-engineers.png",
     alt: "Cloud Architecture and Design Implementation",
     link: "/hire-devops-and-sre-engineers",
   },
