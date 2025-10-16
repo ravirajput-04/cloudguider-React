@@ -5,28 +5,28 @@ function Partners() {
             <div className="sponsers-slider-s2 s-padding-b">
                 <div className="container">
                     <div className="s-title-wrap">
-                        <span className="s-sub-title">Our Partners</span>
-                        <h2 className="s-title">We're Working With</h2>
+                        <span className="s-sub-title">Cloud Platforms</span>
+                        <h2 className="s-title">We're Working on</h2>
                     </div>
                     <div className="row">
                         <div className="sponsers-container">
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-1.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/aws.png" alt="" />
                             </div>
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-2.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/azure.png" alt="" />
                             </div>
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-3.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/gcp.png" alt="" />
                             </div>
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-4.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/ibm.png" alt="" />
                             </div>
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-5.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/oracle.png" alt="" />
                             </div>
                             <div className="s-sponser">
-                                <img src="assets/images/brand-icons/brand-icon-6.svg" alt="" />
+                                <img src="assets/images/cloud-guider/cloud-platforms/cloudflare.png" alt="" />
                             </div>
                         </div>
                     </div>

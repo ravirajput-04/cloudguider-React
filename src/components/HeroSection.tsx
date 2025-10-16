@@ -185,7 +185,7 @@ const HeroSection: React.FC = () => {
           }
 
           .btn-group {
-            margin-bottom: 40px; /* Added spacing between buttons and slider controls */
+            margin-bottom: 40px;
           }
 
           .slider-controls {
