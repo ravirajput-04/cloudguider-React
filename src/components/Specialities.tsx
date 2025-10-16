@@ -19,43 +19,43 @@ const features: FeatureItem[] = [
     id: 1,
     title: "Cloud Consulting",
     description: "Define infallible and tailored cloud strategies with the help of our Cloud certified professionals.",
-    thumb: "assets/images/thumbs/feature5-1.png",
-    icon: "assets/images/feature-icons/feature5-1.png",
+    thumb: "assets/images/cloud-guider/specialities/cloud-consulting-image.png",
+    icon: "assets/images/cloud-guider/specialities/cloud-consulting-icon.png",
   },
   {
     id: 2,
     title: "Cloud Migration",
     description: "Migrate all your on-premises hosted applications into Cloud, ensuring seamless cloud migration.",
-    thumb: "assets/images/thumbs/feature5-2.webp",
-    icon: "assets/images/feature-icons/feature5-2.png",
+    thumb: "assets/images/cloud-guider/specialities/cloud-migration-image.png",
+    icon: "assets/images/cloud-guider/specialities/cloud-migration-icon.png",
   },
   {
     id: 3,
     title: "Cloud Deployment",
     description: "With years of experience in deploying many apps on the cloud, we solve a wide range of problems.",
-    thumb: "assets/images/thumbs/feature5-3.png",
-    icon: "assets/images/feature-icons/feature5-3.png",
+    thumb: "assets/images/cloud-guider/specialities/cloud-deployment-image.png",
+    icon: "assets/images/cloud-guider/specialities/cloud-deployment-icon.png",
   },
   {
     id: 4,
     title: "Cost Optimization",
     description: "We ensure cloud solutions are implemented efficiently and not over budget for you.",
-    thumb: "assets/images/thumbs/feature5-3.png",
-    icon: "assets/images/feature-icons/feature5-3.png",
+    thumb: "assets/images/cloud-guider/specialities/cost-optimization-image.png",
+    icon: "assets/images/cloud-guider/specialities/cost-optimization-icon.png",
   },
   {
     id: 5,
     title: "DevOps",
     description: "Speed up and automate your organizational processes with the DevOps approach.",
-    thumb: "assets/images/thumbs/feature5-3.png",
-    icon: "assets/images/feature-icons/feature5-3.png",
+    thumb: "assets/images/cloud-guider/specialities/devops-image.png",
+    icon: "assets/images/cloud-guider/specialities/devops-icon.png",
   },
   {
     id: 6,
     title: "Managed Service",
     description: "Our managed services help you operate your Cloud infrastructure more efficiently and securely.",
-    thumb: "assets/images/thumbs/feature5-3.png",
-    icon: "assets/images/feature-icons/feature5-3.png",
+    thumb: "assets/images/cloud-guider/specialities/managed-services-image.png",
+    icon: "assets/images/cloud-guider/specialities/managed-services-icon.png",
   },
 ];
 
@@ -83,6 +83,20 @@ const Specialities: React.FC = () => {
       },
       {
         breakpoint: 768, // Tablets
+        settings: {
+          slidesToShow: 1,
+          arrows: false, // Hide arrows on mobile
+        },
+      },
+      {
+        breakpoint: 415, // Mobile devices
+        settings: {
+          slidesToShow: 1,
+          arrows: false, // Hide arrows on mobile
+        },
+      },
+      {
+        breakpoint: 390, // Mobile devices
         settings: {
           slidesToShow: 1,
           arrows: false, // Hide arrows on mobile
