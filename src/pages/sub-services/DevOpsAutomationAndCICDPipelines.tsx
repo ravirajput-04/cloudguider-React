@@ -79,19 +79,19 @@ const devOpsAutomationContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/continuous-integration.png",
       title: "Continuous Integration",
       description:
         "Automate builds and tests with every code commit to ensure reliable, consistent, and high-quality software delivery across all environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/continuous-delivery-and-deployment.png",
       title: "Continuous Delivery & Deployment",
       description:
         "Deploy code automatically to staging or production environments with zero downtime, reducing errors and accelerating time-to-market for critical updates."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/devops-collaboration.png",
       title: "DevOps Collaboration",
       description:
         "Enhance team collaboration across development, QA, and operations with streamlined workflows, automated feedback, and shared dashboards to improve efficiency and accountability."

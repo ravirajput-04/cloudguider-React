@@ -84,19 +84,19 @@ const cloudMigrationContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/seamless-cloud-migration.png",
       title: "Seamless Cloud Migration",
       description:
         "Execute a smooth and secure migration strategy that minimizes downtime and data loss while maximizing application availability during the transition to the cloud."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/application-modernization.png",
       title: "Application Modernization",
       description:
         "Re-engineer legacy applications using cloud-native architectures, microservices, and containers to enhance performance, scalability, and long-term sustainability."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/optimization-and-governance.png",
       title: "Optimization & Governance",
       description:
         "Achieve optimal cloud performance and cost efficiency with intelligent governance, continuous monitoring, and proactive resource management across cloud environments."

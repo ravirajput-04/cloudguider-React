@@ -70,19 +70,19 @@ const monitoringObservabilityContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/real-time-monitoring.png",
       title: "Real-Time Monitoring",
       description:
         "Continuously track system metrics, logs, and events to detect issues early and maintain optimal performance."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/observability-and-analytics.png",
       title: "Observability & Analytics",
       description:
         "Gain deep insights into applications and infrastructure for root cause analysis and continuous improvement."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/incident-management.png",
       title: "Incident Management",
       description:
         "Structured workflows for detecting, escalating, and resolving incidents quickly, reducing downtime and maintaining reliability."

@@ -68,19 +68,19 @@ const devSecOpsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/automated-security.png",
       title: "Automated Security",
       description:
         "Integrate security checks and vulnerability scanning into CI/CD pipelines to identify risks early and reduce manual intervention."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/policy-and-compliance-automation.png",
       title: "Policy & Compliance Automation",
       description:
         "Automatically enforce security policies and maintain compliance across all environments without slowing development."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/continuous-security-monitoring.png",
       title: "Continuous Security Monitoring",
       description:
         "Implement real-time monitoring, alerts, and automated responses to detect and address threats proactively."

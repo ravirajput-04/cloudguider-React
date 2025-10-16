@@ -80,19 +80,19 @@ const hireDataAndAIEngineersContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/ai-ml-expertise.png",
       title: "AI & ML Expertise",
       description:
         "Develop and deploy machine learning and AI models that transform data into actionable insights for strategic advantage.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/data-analysis-and-modeling.png",
       title: "Data Analysis & Modeling",
       description:
         "Apply advanced analytics, feature engineering, and statistical techniques to improve model accuracy and decision-making insights.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/ai-ml-deployment.png",
       title: "AI/ML Deployment",
       description:
         "Operationalize machine learning and AI models on cloud platforms with scalable, secure, and optimized infrastructure for production environments.",

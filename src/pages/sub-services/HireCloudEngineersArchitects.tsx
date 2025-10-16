@@ -81,19 +81,19 @@ const hireCloudEngineersContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/expert-cloud-engineers.png",
       title: "Expert Cloud Engineers",
       description:
         "Leverage the expertise of certified professionals skilled in automating, optimizing, and managing workloads across AWS, Azure, and Google Cloud platforms for maximum efficiency."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/cloud-architecture-design.png",
       title: "Cloud Architecture Design",
       description:
         "Build robust, secure, and future-ready architectures designed to handle complex workloads while maintaining compliance and cost efficiency in multi-cloud or hybrid environments."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/dedicated-cloud-support.png",
       title: "Dedicated Cloud Support",
       description:
         "Get 24/7 assistance and proactive monitoring from our dedicated engineers who ensure smooth operations, quick issue resolution, and continuous performance improvements."

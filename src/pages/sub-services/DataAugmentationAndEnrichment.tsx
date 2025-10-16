@@ -68,19 +68,19 @@ const dataAugmentationContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/data-cleansing-and-normalization.png",
       title: "Data Cleansing & Normalization",
       description:
         "Correct inconsistencies, remove duplicates, and standardize data to ensure high-quality datasets ready for analytics or AI applications."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/data-augmentation.png",
       title: "Data Augmentation",
       description:
         "Expand your datasets with synthetic samples, transformations, or additional attributes to enhance machine learning model performance."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/data-enrichment.png",
       title: "Data Enrichment",
       description:
         "Integrate external sources, features, and transformations to enhance data quality, analytical insights, and AI model accuracy."

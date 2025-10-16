@@ -68,19 +68,19 @@ const securityAuditsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/security-audits.png",
       title: "Security Audits",
       description:
         "Conduct thorough evaluations of networks, applications, and cloud infrastructure to identify and remediate security gaps."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/penetration-testing.png",
       title: "Penetration Testing",
       description:
         "Simulate real-world cyberattacks to detect vulnerabilities, assess risks, and validate security defenses before threats occur."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/compliance-management.png",
       title: "Compliance & Remediation",
       description:
         "Maintain regulatory compliance and implement actionable remediation plans to strengthen security and reduce risks proactively."

@@ -81,19 +81,19 @@ const autoScalingContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/intelligent-auto-scaling.png",
       title: "Intelligent Auto Scaling",
       description:
         "Configure horizontal and vertical scaling strategies that automatically adjust to traffic, usage, and performance metrics — ensuring optimal resource allocation at all times."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/performance-engineering.png",
       title: "Performance Engineering",
       description:
         "Conduct comprehensive load and stress testing to uncover performance limits, optimize infrastructure, and enhance user experiences even under extreme workloads."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/performance-monitoring.png",
       title: "Real-Time Performance Monitoring",
       description:
         "Utilize advanced observability platforms and APM tools to gain visibility into system health, detect anomalies early, and maintain peak application responsiveness around the clock."

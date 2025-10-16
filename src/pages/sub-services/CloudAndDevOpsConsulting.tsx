@@ -68,19 +68,19 @@ const cloudDevOpsConsultingContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/cloud-strategy-architecture.png",
       title: "Cloud Strategy & Architecture",
       description:
         "Craft scalable, secure, and cost-efficient cloud architectures aligned with business objectives and technology goals."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/devops-process-implementation.png",
       title: "DevOps Process Implementation",
       description:
         "Enable CI/CD pipelines, automated workflows, and collaborative DevOps practices to improve delivery speed and quality."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/cost-optimization-and-performance.png",
       title: "Cost Optimization & Performance",
       description:
         "Assess cloud usage, enhance system performance, and optimize resource utilization for maximum efficiency and ROI."

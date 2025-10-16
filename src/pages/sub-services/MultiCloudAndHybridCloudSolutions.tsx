@@ -82,19 +82,19 @@ const multiCloudContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/hybrid-cloud-integration.png",
       title: "Hybrid Cloud Integration",
       description:
         "Bridge on-premises and cloud systems with secure, automated workflows that enable seamless data flow and unified operations across your entire IT ecosystem."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/cloud-interoperability.png",
       title: "Cloud Interoperability",
       description:
         "Achieve cross-cloud compatibility with optimized APIs, automation frameworks, and containerized deployments that ensure seamless workload transitions between providers."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/unified-cloud-management.png",
       title: "Unified Cloud Management",
       description:
         "Simplify multi-cloud operations with centralized monitoring, governance, and policy enforcement tools that deliver complete visibility and control across all environments."

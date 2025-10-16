@@ -83,19 +83,19 @@ const aimlDeploymentContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/scalable-deployment.png",
       title: "Scalable Deployment",
       description:
         "Deploy AI/ML models on resilient cloud infrastructure designed to handle high-volume requests with minimal latency and maximum reliability.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/ci-cd-for-ai-ml.png",
       title: "CI/CD for AI/ML",
       description:
         "Automate integration, testing, and deployment of machine learning models using continuous pipelines for rapid, reliable updates.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/monitoring-and-optimization.png",
       title: "Monitoring & Optimization",
       description:
         "Monitor performance, latency, and cost metrics continuously while applying optimizations to maintain model accuracy and production efficiency.",

@@ -68,19 +68,19 @@ const cloudStrategyArchitectureContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/strategic-cloud-planning.png",
       title: "Strategic Cloud Planning",
       description:
         "Develop a structured cloud adoption roadmap aligned with business goals, operational priorities, and budget considerations."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/scalable-architecture-design.png",
       title: "Scalable Architecture Design",
       description:
         "Build resilient, highly available, and flexible cloud architectures that can adapt to changing workloads and business requirements."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/cost-optimization-and-performance.png",
       title: "Cost Optimization & Security",
       description:
         "Optimize cloud resource usage for maximum efficiency while integrating robust security and compliance measures into your architecture."

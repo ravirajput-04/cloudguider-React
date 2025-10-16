@@ -71,20 +71,20 @@ const hireCloudEngineersContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
-      title: "Cloud Architecture &amp; Design",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/cloud-architecture-and-design.png",
+      title: "Cloud Architecture & Design",
       description:
         "Design and implement cloud solutions that are scalable, resilient, and aligned with your business goals.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
-      title: "Cloud Migration &amp; Deployment",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/cloud-migration-and-deployment.png",
+      title: "Cloud Migration & Deployment",
       description:
         "Migrate and deploy applications seamlessly across cloud platforms while minimizing downtime and maintaining performance.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
-      title: "DevOps &amp; Automation",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/devops-and-automation.png",
+      title: "DevOps & Automation",
       description:
         "Implement automated workflows, CI/CD pipelines, and infrastructure-as-code for faster, error-free deployments.",
     },

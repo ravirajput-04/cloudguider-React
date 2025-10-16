@@ -70,19 +70,19 @@ const containerizationK8sContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/containerization.png",
       title: "Containerization",
       description:
         "Package applications and dependencies into portable containers, ensuring consistent performance and simplified deployment."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/kubernetes-orchestration.png",
       title: "Kubernetes Orchestration",
       description:
         "Automate deployment, scaling, and management of containerized applications, ensuring high availability and performance."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/ci-cd-integration.png",
       title: "CI/CD Integration",
       description:
         "Integrate containers into continuous integration and delivery pipelines for rapid, reliable, and repeatable deployments."

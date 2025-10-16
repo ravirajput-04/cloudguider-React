@@ -68,19 +68,19 @@ const hireDevSecOpsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/expert-devsecops.png",
       title: "Expert DevSecOps",
       description:
         "Certified DevSecOps professionals integrate security into CI/CD pipelines, automate compliance, and reduce risks across development and operations."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/cybersecurity-experts.png",
       title: "Cybersecurity Experts",
       description:
         "Specialists skilled in vulnerability management, threat detection, penetration testing, and incident response to safeguard business-critical assets."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/flexible-engagements.png",
       title: "Flexible Engagements",
       description:
         "Full-time, part-time, or project-based engagements to scale your security team according to business needs."

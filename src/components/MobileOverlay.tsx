@@ -224,17 +224,17 @@ const MobileOverlay: React.FC = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/cloud-optimization">
+                  <NavLink to="/vulnerability-management-and-threat-detection">
                     Vulnerability Management &amp; Threat Detection
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/cloud-platform">
+                  <NavLink to="/security-audits-and-penetration-testing">
                     Security Audits &amp; Penetration Testing
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/hire-devssecops-and-security-experts">
+                  <NavLink to="/hire-devsecops-and-security-experts">
                     Hire DevSecOps &amp; Security Experts
                   </NavLink>
                 </li>
@@ -262,7 +262,7 @@ const MobileOverlay: React.FC = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/migration-planning-and-execution-supporting">
+                  <NavLink to="/migration-planning-and-execution-support">
                     Migration Planning &amp; Execution Support
                   </NavLink>
                 </li>
@@ -311,7 +311,7 @@ const MobileOverlay: React.FC = () => {
                   <NavLink to="/hire-cloud-engineers">Hire Cloud Engineers</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/dire-devops-and-sre-engineers">
+                  <NavLink to="/hire-devops-and-sre-engineers">
                     Hire DevOps &amp; SRE Engineers
                   </NavLink>
                 </li>

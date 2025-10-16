@@ -80,20 +80,20 @@ const hireCloudArchitectsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
-      title: "Cloud Strategy &amp; Planning",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/cloud-strategy-and-planning.png",
+      title: "Cloud Strategy & Planning",
       description:
         "Craft a cloud roadmap that aligns with business objectives, ensuring efficient adoption and scalable solutions.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
-      title: "Architecture Design &amp; Implementation",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/architecture-design-and-implementation.png",
+      title: "Architecture Design & Implementation",
       description:
         "Design and deploy secure, resilient, and cost-effective cloud infrastructures that meet your business requirements.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
-      title: "Multi-Cloud &amp; Hybrid Expertise",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/multi-cloud-and-hybrid-expertise.png",
+      title: "Multi-Cloud & Hybrid Expertise",
       description:
         "Integrate and manage resources across multiple cloud platforms and on-premise systems for seamless operations.",
     },

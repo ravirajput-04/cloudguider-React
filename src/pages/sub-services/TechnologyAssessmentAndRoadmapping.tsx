@@ -68,19 +68,19 @@ const technologyAssessmentContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/technology-assessment.png",
       title: "Technology Assessment",
       description:
         "Conduct in-depth evaluations of IT systems and infrastructure to identify strengths, weaknesses, and improvement opportunities."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/strategic-roadmapping.png",
       title: "Strategic Roadmapping",
       description:
         "Define a clear IT roadmap prioritizing initiatives, aligning with business goals, and ensuring smooth technology adoption."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/innovation-and-risk-management.png",
       title: "Innovation & Risk Management",
       description:
         "Recommend emerging technologies, ensure compliance, and mitigate risks while driving innovation and business growth."

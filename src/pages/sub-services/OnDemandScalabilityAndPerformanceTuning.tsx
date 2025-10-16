@@ -68,19 +68,19 @@ const onDemandScalabilityContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/dynamic-auto-scaling.png",
       title: "Dynamic Auto-Scaling",
       description:
         "Automatically scale compute resources up or down based on real-time demand to maintain performance, reduce costs, and ensure reliability."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/performance-tuning.png",
       title: "Performance Tuning",
       description:
         "Optimize system performance through fine-tuning, load testing, and continuous monitoring for responsive and fast applications."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/monitoring-and-optimization.png",
       title: "Monitoring & Optimization",
       description:
         "Implement intelligent monitoring and proactive optimization to detect anomalies early, improve efficiency, and ensure seamless experiences."

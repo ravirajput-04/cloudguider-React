@@ -68,19 +68,19 @@ const dataAnalyticsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/data-analysis-and-reporting.png",
       title: "Data Analysis & Reporting",
       description:
         "Analyze complex datasets to uncover trends, insights, and correlations that drive informed business decisions."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/interactive-dashboards.png",
       title: "Interactive Dashboards",
       description:
         "Visualize KPIs and performance metrics in real-time using interactive dashboards tailored for executives and teams."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/data-and-ai-services/predictive-and-advanced-analytics.png",
       title: "Predictive & Advanced Analytics",
       description:
         "Apply machine learning and statistical models to forecast trends, optimize strategies, and improve operational outcomes."

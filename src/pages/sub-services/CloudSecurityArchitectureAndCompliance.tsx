@@ -68,19 +68,19 @@ const cloudSecurityContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/secure-cloud-design.png",
       title: "Secure Cloud Design",
       description:
         "Implement network segmentation, firewalls, and zero-trust models to protect applications and data across multi-cloud environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/compliance-management.png",
       title: "Compliance Management",
       description:
         "Maintain regulatory compliance with automated policies, audits, and controls aligned with industry standards."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devsecops-and-security/threat-detection-iam.png",
       title: "Threat Detection & IAM",
       description:
         "Use proactive monitoring, automated alerts, and identity & access management to prevent unauthorized access and mitigate risks."

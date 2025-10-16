@@ -80,20 +80,20 @@ const hireTechnicalConsultantsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
-      title: "IT &amp; Cloud Strategy",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/it-and-cloud-strategy.png",
+      title: "IT & Cloud Strategy",
       description:
         "Define strategic technology roadmaps that align cloud, infrastructure, and application initiatives with business objectives.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
-      title: "Technical Assessments &amp; Audits",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/technical-assessments-and-audits.png",
+      title: "Technical Assessments & Audits",
       description:
         "Evaluate current IT and cloud environments to identify gaps, risks, and areas for performance and security improvements.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
-      title: "Solution Design &amp; Implementation",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/solution-design-and-implementation.png",
+      title: "Solution Design & Implementation",
       description:
         "Recommend and implement tailored solutions across cloud and IT environments to maximize efficiency, security, and scalability.",
     },

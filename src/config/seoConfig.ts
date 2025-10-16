@@ -424,6 +424,15 @@ const seoConfig: Record<string, SEOContent> = {
     canonical:
       "https://www.cloudguider.com/hire-devsecops-and-security-engineers",
   },
+  "hire-technical-consultants": {
+  title: "Hire Technical Consultants | Cloud Guider",
+  description:
+    "Hire expert technical consultants to guide your digital transformation, optimize infrastructure, and deliver scalable IT solutions.",
+  keywords:
+    "hire technical consultants, IT consulting, cloud strategy, digital transformation, infrastructure optimization",
+  canonical:
+    "https://www.cloudguider.com/hire-technical-consultants",
+},
 };
 
 export default seoConfig;

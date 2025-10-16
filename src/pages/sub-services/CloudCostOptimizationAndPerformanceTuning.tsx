@@ -82,19 +82,19 @@ const cloudCostOptimizationContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/cloud-cost-visibility.png",
       title: "Cloud Cost Visibility",
       description:
         "Gain granular insights into your cloud spending patterns with detailed reports and analytics that highlight optimization opportunities and potential savings across multi-cloud environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/performance-tuning-and-optimization.png",
       title: "Performance Tuning & Optimization",
       description:
         "Fine-tune cloud workloads, databases, and applications to reduce latency, improve throughput, and deliver seamless user experiences without over-provisioning resources."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/automated-cost-governance.png",
       title: "Automated Cost Governance",
       description:
         "Implement policies and automation scripts that control spending, enforce budgets, and ensure compliance — helping your teams maintain financial discipline without slowing innovation."

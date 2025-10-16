@@ -70,19 +70,19 @@ const sreSolutionsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/resilient-systems.png",
       title: "Resilient Systems",
       description:
         "Build fault-tolerant architectures that automatically recover from failures, ensuring uninterrupted service delivery."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/monitoring-and-observability.png",
       title: "Monitoring & Observability",
       description:
         "Gain real-time insights with monitoring, logging, and alerting solutions to detect issues before they impact users."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/automated-operations.png",
       title: "Automated Operations",
       description:
         "Streamline deployments, scaling, and incident response with automated workflows to improve operational efficiency."

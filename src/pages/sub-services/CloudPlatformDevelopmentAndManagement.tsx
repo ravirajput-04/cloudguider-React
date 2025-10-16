@@ -80,19 +80,19 @@ const cloudServiceContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/future-technology.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/automation-and-time-efficiency.png",
       title: "Automation & Time Efficiency",
       description:
         "Streamline deployments, updates, and scaling through intelligent automation tools that save time and eliminate manual errors across cloud environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/centralized-cloud-management.png",
       title: "Centralized Cloud Management",
       description:
         "Gain full visibility and control of your multi-cloud infrastructure through unified dashboards and advanced monitoring solutions that simplify resource management."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/collaborative-development.png",
       title: "Collaborative Development",
       description:
         "Foster teamwork between DevOps, developers, and IT operations with collaborative workflows and version-controlled deployments powered by modern cloud frameworks."

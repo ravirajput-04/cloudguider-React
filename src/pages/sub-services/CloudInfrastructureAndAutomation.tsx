@@ -86,19 +86,19 @@ const cloudInfrastructureContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/infrastructure-as-code.png",
       title: "Infrastructure as Code (IaC)",
       description:
         "Build, replicate, and scale your cloud environments through reusable templates and automation scripts, reducing deployment times and improving reliability across multiple environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/devops-driven-cloud-automation.png",
       title: "DevOps-Driven Cloud Automation",
       description:
         "Integrate automation at every stage of development and operations with CI/CD pipelines, auto-deployments, and version-controlled configurations that streamline delivery and reduce risk."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/cloud-services/autonomous-monitoring-and-scaling.png",
       title: "Autonomous Monitoring & Scaling",
       description:
         "Enable real-time visibility into cloud resources with AI-powered monitoring, automatic fault detection, and adaptive scaling that keeps your infrastructure performing at its best — always."

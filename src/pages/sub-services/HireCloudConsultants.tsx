@@ -68,19 +68,19 @@ const hireCloudConsultantsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/cloud-strategy-and-advisory.png",
       title: "Cloud Strategy & Advisory",
       description:
         "Receive expert guidance to align cloud initiatives with business objectives, optimize costs, and plan long-term cloud adoption."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/architecture-and-design.png",
       title: "Architecture & Design",
       description:
         "Design secure, scalable, and high-performing cloud architectures that meet your business and operational requirements."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/migration-and-optimization.png",
       title: "Migration & Optimization",
       description:
         "Plan and execute smooth cloud migrations while optimizing performance, scalability, security, and cost across your infrastructure."

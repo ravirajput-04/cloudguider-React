@@ -81,19 +81,19 @@ const iacConfigurationContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/infrastructure-as-code.png",
       title: "Infrastructure as Code",
       description:
         "Automate the creation, deployment, and management of infrastructure with reusable, version-controlled code that ensures consistency and speeds up provisioning across environments."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/configuration-management.png",
       title: "Configuration Management",
       description:
         "Maintain consistent system configurations, automate updates and patches, and prevent drift across multi-cloud and hybrid environments for reliable, secure operations."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/version-control-and-auditing.png",
       title: "Version Control & Auditing",
       description:
         "Track every change in your infrastructure and configuration code, enabling auditing, rollback, and controlled deployments for enhanced security and compliance."

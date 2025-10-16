@@ -68,19 +68,19 @@ const hireDevOpsContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/devops-expertise.png",
       title: "DevOps Expertise",
       description:
         "Accelerate software delivery with automated CI/CD pipelines, infrastructure management, and deployment workflows."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/sre-reliability.png",
       title: "SRE Reliability",
       description:
         "Maintain high availability, robust monitoring, and proactive incident management for consistent system performance."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/devops-and-sre/flexible-hiring.png",
       title: "Flexible Hiring",
       description:
         "Engage top DevOps and SRE engineers on-demand, full-time, or for specific projects to scale operations efficiently."

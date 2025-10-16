@@ -80,20 +80,20 @@ const hireK8sDockerContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
-      title: "Containerization &amp; Orchestration",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/containerization-and-orchestration.png",
+      title: "Containerization & Orchestration",
       description:
         "Package and manage applications in Docker containers orchestrated with Kubernetes for scalable, resilient deployments.",
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/ci-cd-integration.png",
       title: "CI/CD Integration",
       description:
         "Automate building, testing, and deploying containerized applications to accelerate delivery and reduce operational errors.",
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
-      title: "Monitoring &amp; Optimization",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/resource-hiring/monitoring-and-optimization.png",
+      title: "Monitoring & Optimization",
       description:
         "Continuously monitor container performance, optimize resource usage, and ensure high availability and fault tolerance.",
     },

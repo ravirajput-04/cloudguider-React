@@ -68,19 +68,19 @@ const migrationPlanningContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/environment-assessment.png",
       title: "Environment Assessment",
       description:
         "Evaluate current infrastructure and dependencies to select the most efficient migration strategy."
     },
     {
-      icon: "assets/images/feature-icons/management-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/migration-strategy.png",
       title: "Migration Strategy",
       description:
         "Design a structured roadmap with milestones, resource allocation, and risk mitigation for smooth execution."
     },
     {
-      icon: "assets/images/feature-icons/collaborative-icon.png",
+      icon: "assets/images/cloud-guider/subservices-feature-icons/consulting-and-advisory/execution-and-support.png",
       title: "Execution & Support",
       description:
         "Provide hands-on migration assistance with automated tools, real-time monitoring, and post-migration optimization."
