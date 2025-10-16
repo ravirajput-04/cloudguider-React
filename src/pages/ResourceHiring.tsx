@@ -20,7 +20,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-cloud-engineers.png",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "hire-cloud-engineers",
     link: "/hire-cloud-engineers",
   },
   {
@@ -35,7 +35,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-devops-and-sre-engineers.png",
-    alt: "Migrate to Kubernetes Services",
+    alt: "hire-devops-and-sre-engineers",
     link: "/hire-devops-and-sre-engineers",
     reverse: true,
   },
@@ -51,7 +51,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-devsecops-and-security-experts.png",
-    alt: "Infrastructure Monitoring Services",
+    alt: "hire-devsecops-and-security-experts",
     link: "/hire-devsecops-and-security-experts",
   },
   {
@@ -66,7 +66,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-cloud-architects.png",
-    alt: "DevOps",
+    alt: "hire-cloud-architects",
     link: "/hire-cloud-architects",
     reverse: true,
   },
@@ -82,7 +82,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-kubernetes-docker-experts.png",
-    alt: "Web Development",
+    alt: "hire-kubernetes-docker-experts",
     link: "/hire-kubernetes-docker-experts",
   },
   {
@@ -97,7 +97,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-data-and-ai-engineers.png",
-    alt: "Robust IT Security Solutions",
+    alt: "hire-data-and-ai-engineers",
     link: "/hire-data-scientists-ai-engineers",
     reverse: true,
   },
@@ -113,7 +113,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-technical-consultants.png",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "hire-technical-consultants",
     link: "/hire-technical-consultants",
   },
 ];

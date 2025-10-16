@@ -20,7 +20,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/data-augmentation-and-enrichment.jpg",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "data-augmentation-and-enrichment",
     link: "/data-augmentation-and-enrichment",
   },
   {
@@ -35,7 +35,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/data-analytics-and-visualization.png",
-    alt: "Migrate to Kubernetes Services",
+    alt: "data-analytics-and-visualization",
     link: "/data-analytics-and-visualization",
     reverse: true,
   },
@@ -51,7 +51,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/ai-ml-model-deployment-on-cloud.png",
-    alt: "Infrastructure Monitoring Services",
+    alt: "ai-ml-model-deployment-on-cloud",
     link: "/ai-ml-model-deployment-on-cloud",
   },
   {
@@ -66,7 +66,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-data-and-ai-engineers.png",
-    alt: "DevOps",
+    alt: "hire-data-and-ai-engineers",
     link: "/hire-data-scientists-ai-engineers",
     reverse: true,
   },

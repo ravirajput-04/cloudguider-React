@@ -12,7 +12,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6 floating">
         <div className="feature-s2 active wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".5s">
           <div className="icon">
-            <img src="assets/images/feature-icons/cloud-icon.svg" alt="" />
+            <img src="assets/images/feature-icons/cloud-service.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="cloud-services.html">Cloud Services</a></h4>
@@ -26,7 +26,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6">
         <div className="feature-s2 wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
           <div className="icon">
-            <img src="assets/images/feature-icons/cyber-security.png" alt="" />
+            <img src="assets/images/feature-icons/devops.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="devops-and-sre.html">DevOps &amp; SRE</a></h4>
@@ -39,7 +39,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6">
         <div className="feature-s2 wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">
           <div className="icon">
-            <img src="assets/images/feature-icons/web-development.png" alt="" />
+            <img src="assets/images/feature-icons/devsecops.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="devsecops-and-security.html">DevSevOps &amp; Security</a></h4>
@@ -52,7 +52,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6">
         <div className="feature-s2 wow animate__animated animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay="2s">
           <div className="icon">
-            <img src="assets/images/feature-icons/cloud-icon.svg" alt="" />
+            <img src="assets/images/feature-icons/customer-support.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="consulting-and-advisory.html">Consulting &amp; Advisory</a></h4>
@@ -65,7 +65,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6">
         <div className="feature-s2 wow animate__animated animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay="2.5s">
           <div className="icon">
-            <img src="assets/images/feature-icons/pencil-icon.svg" alt="" />
+            <img src="assets/images/feature-icons/ai.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="data-and-ai-services.html">Data &amp; AI Services</a></h4>
@@ -78,7 +78,7 @@ function AllServices() {
       <div className="col-xl-4 col-md-6">
         <div className="feature-s2 wow animate__animated animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay="3s">
           <div className="icon">
-            <img src="assets/images/feature-icons/analytix.png" alt="" />
+            <img src="assets/images/feature-icons/resource-hiring.png" alt="" />
           </div>
           <div className="content">
             <h4><a href="resource-hiring.html">Resource Hiring</a></h4>

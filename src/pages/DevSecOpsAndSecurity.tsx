@@ -20,7 +20,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/devsecops-implementation-and-security-automation.png",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "devsecops-implementation-and-security-automation",
     link: "/devsecops-implementation-and-security-automation",
   },
   {
@@ -36,7 +36,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/cloud-security-architecture-and-compliance.png",
-    alt: "Migrate to Kubernetes Services",
+    alt: "cloud-security-architecture-and-compliance",
     link: "/cloud-security-architecture-and-compliance",
     reverse: true,
   },
@@ -52,7 +52,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/vulnerability-management-and-threat-detection.png",
-    alt: "Infrastructure Monitoring Services",
+    alt: "vulnerability-management-and-threat-detection",
     link: "/vulnerability-management-and-threat-detection",
   },
   {
@@ -67,7 +67,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/security-audits-and-penetration-testing.png",
-    alt: "DevOps",
+    alt: "security-audits-and-penetration-testing",
     link: "/security-audits-and-penetration-testing",
     reverse: true,
   },
@@ -83,7 +83,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-devsecops-and-security-experts.png",
-    alt: "Web Development",
+    alt: "hire-devsecops-and-security-experts",
     link: "/hire-devsecops-and-security-experts",
   },
 ];

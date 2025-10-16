@@ -21,7 +21,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/devops-automation-and-ci-cd-pipelines.png",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "devops-automation-and-ci-cd-pipelines",
     link: "/devops-automation-and-ci-cd-pipelines",
   },
   {
@@ -37,7 +37,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/infrastructure-as-code-and-configuration-management.png",
-    alt: "Migrate to Kubernetes Services",
+    alt: "infrastructure-as-code-and-configuration-management",
     link: "/infrastructure-as-code-and-configuration-management",
     reverse: true,
   },
@@ -54,7 +54,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/site-reliability-engineering-solutions.png",
-    alt: "Infrastructure Monitoring Services",
+    alt: "site-reliability-engineering-solutions",
     link: "/site-reliability-engineering-solutions",
   },
   {
@@ -70,7 +70,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/monitoring-observability-and-incident-management.png",
-    alt: "DevOps",
+    alt: "monitoring-observability-and-incident-management",
     link: "/monitoring-observability-and-incident-management",
     reverse: true,
   },
@@ -87,7 +87,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/containerization-and-kubernetes-orchestration.png",
-    alt: "Web Development",
+    alt: "containerization-and-kubernetes-orchestration",
     link: "/containerization-and-kubernetes-orchestration",
   },
   {
@@ -103,7 +103,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/on-demand-scalability-and-performance-tuning.png",
-    alt: "Robust IT Security Solutions",
+    alt: "on-demand-scalability-and-performance-tuning",
     link: "/on-demand-scalability-and-performance-tuning",
     reverse: true,
   },
@@ -120,7 +120,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/hire-devops-and-sre-engineers.png",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "hire-devops-and-sre-engineers",
     link: "/hire-devops-and-sre-engineers",
   },
 ];

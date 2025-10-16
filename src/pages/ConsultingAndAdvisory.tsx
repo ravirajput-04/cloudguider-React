@@ -20,7 +20,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/cloud-and-devops-consulting.jpg",
-    alt: "Cloud Architecture and Design Implementation",
+    alt: "cloud-and-devops-consulting",
     link: "/cloud-and-devops-consulting",
   },
   {
@@ -35,7 +35,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/cloud-strategy-and-architecture-design.jpg",
-    alt: "Migrate to Kubernetes Services",
+    alt: "cloud-strategy-and-architecture-design",
     link: "/cloud-strategy-and-architecture-design",
     reverse: true,
   },
@@ -51,7 +51,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/technology-assessment-and-roadmapping.jpg",
-    alt: "Infrastructure Monitoring Services",
+    alt: "technology-assessment-and-roadmapping",
     link: "/technology-assessment-and-roadmapping",
   },
   {
@@ -66,7 +66,7 @@ const servicesData: ServiceItem[] = [
       </>
     ),
     image: "assets/images/cloud-guider/service-images/migration-planning-and-execution-support.png",
-    alt: "DevOps",
+    alt: "migration-planning-and-execution-support",
     link: "/migration-plannning-and-execution-support",
     reverse: true,
   },
@@ -81,8 +81,8 @@ const servicesData: ServiceItem[] = [
         </p>
       </>
     ),
-    image: "assets/images/cloud-guider/others/Web-development.png",
-    alt: "Web Development",
+    image: "assets/images/cloud-guider/service-images/hire-cloud-consultants.png",
+    alt: "hire-cloud-consultants",
     link: "/hire-cloud-consultants",
   },
 ];

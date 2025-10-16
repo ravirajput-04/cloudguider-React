@@ -80,7 +80,7 @@ const cloudServiceContent: SubServiceContent = {
   ),
   featureBoxes: [
     {
-      icon: "assets/images/feature-icons/time-saving-icon.png",
+      icon: "assets/images/feature-icons/future-technology.png",
       title: "Automation & Time Efficiency",
       description:
         "Streamline deployments, updates, and scaling through intelligent automation tools that save time and eliminate manual errors across cloud environments."

@@ -23,7 +23,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/cloud-platform-development-and-management.png",
-        alt: "Cloud Architecture and Design Implementation",
+        alt: "cloud-platform-development-and-management",
         link: "/cloud-platform-development-and-management",
     },
     {
@@ -42,7 +42,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/cloud-infrastructure-and-automation.png",
-        alt: "Migrate to Kubernetes Services",
+        alt: "cloud-infrastructure-and-automation",
         link: "/cloud-infrastructure-and-automation",
         reverse: true,
     },
@@ -61,7 +61,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/cloud-migration-and-modernization.png",
-        alt: "Infrastructure Monitoring Services",
+        alt: "cloud-migration-and-modernization",
         link: "/cloud-migration-and-modernization",
     },
     {
@@ -77,7 +77,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/cloud-cost-optimization-and-performance-tuning.png",
-        alt: "DevOps",
+        alt: "cloud-cost-optimization-and-performance-tuning",
         link: "/cloud-cost-optimization-and-performance-tuning",
         reverse: true,
     },
@@ -96,7 +96,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/auto-scaling-and-cloud-performance-engineering.jpeg",
-        alt: "Web Development",
+        alt: "auto-scaling-and-cloud-performance-engineering",
         link: "/auto-scaling-and-cloud-performance-engineering",
     },
     {
@@ -113,7 +113,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/multi-cloud-and-hybrid-cloud-solutions.png",
-        alt: "Robust IT Security Solutions",
+        alt: "multi-cloud-and-hybrid-cloud-solutions",
         link: "/multi-cloud-and-hybrid-cloud-solutions",
         reverse: true,
     },
@@ -130,7 +130,7 @@ const servicesData: ServiceItem[] = [
             </>
         ),
         image: "assets/images/cloud-guider/service-images/hire-cloud-engineers.png",
-        alt: "Cloud Architecture and Design Implementation",
+        alt: "hire-cloud-engineers",
         link: "/hire-cloud-engineers",
     },
 ];
