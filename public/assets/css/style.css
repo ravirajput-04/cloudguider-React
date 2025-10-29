@@ -134,7 +134,7 @@ img {
 }
 
 .s-title {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 50px;
 }
 
@@ -143,15 +143,15 @@ img {
 }
 
 .s-sub-title {
-  font-family: "Poppins";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 40px;
   line-height: 30px;
   color: #000060;
   display: inline-block;
   padding-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .s-padding {
@@ -2982,7 +2982,7 @@ img {
   padding: 15px 0px;
   border: 1px solid #fff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 40px;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -3822,7 +3822,7 @@ img {
 
 .contact-form-s1 {
   background: linear-gradient(225.03deg, #5c43f9 -1.09%, #4e93ed 101.5%);
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 70px;
 }
 
@@ -5640,14 +5640,14 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
 
 .hero-s3__content .content-sh {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 60px;
   line-height: 44px;
   color: #007cfb;
 }
 
 .hero-s3__content .content-h {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 35px;
   line-height: 80px;
   color: #1c1c1c;
   margin-top: 20px;
@@ -10401,7 +10401,7 @@ body#blog .b-pagination {
 
 /* Privacy Policy Css */
 .privacy-container {
-  max-width: 90%;
+  max-width: 95%;
   margin: 50px auto;
   padding: 40px 30px;
   background: #f5f7fb;
@@ -10553,7 +10553,7 @@ body#blog .b-pagination {
 /* Terms and Conditions Styles - Standalone with terms- prefix */
 
 .terms-container {
-  max-width: 90%;
+  max-width: 95%;
   margin: 50px auto;
   padding: 40px 30px;
   background: #f5f7fb;
@@ -10703,7 +10703,7 @@ body#blog .b-pagination {
 /* Mission & Vision Styles - Standalone with mission- prefix */
 
 .mission-container {
-  max-width: 90%;
+  max-width: 95%;
   margin: 60px auto;
   padding: 50px 30px;
   background: #f5f7fb;
@@ -10812,7 +10812,7 @@ body#blog .b-pagination {
 
 /* About Us Details */
 .about-container {
-  max-width: 90%;
+  max-width: 95%;
   margin: 60px auto;
   padding: 50px 30px;
   background: #f5f7fb;
@@ -10940,7 +10940,7 @@ body#blog .b-pagination {
 
 /* Service Defination Area */
 .service-container {
-  max-width: 90%;
+  max-width: 95%;
   margin: 30px auto;
   padding: 20px 30px;
   background: #f5f7fb;
@@ -11223,7 +11223,7 @@ body#blog .b-pagination {
   font-family: Arial, sans-serif;
   color: #222;
   background: #f9f9f9;
-  max-width: 90%;
+  max-width: 95%;
   padding-top: 60px;
   /* breathing space on top */
   padding-bottom: 60px;
@@ -11433,7 +11433,7 @@ body#blog .b-pagination {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 95%;
   max-width: 900px;
   /* Increased from 800px */
   background: rgba(255, 255, 255, 0.97);
@@ -11550,7 +11550,7 @@ body#blog .b-pagination {
 
 .cookies-modal {
   background: white;
-  width: 90%;
+  width: 95%;
   max-width: 800px;
   max-height: 80vh;
   border-radius: 12px;

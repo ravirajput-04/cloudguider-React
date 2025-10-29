@@ -14,10 +14,12 @@ const AllServices: React.FC = () => {
 
           <div className="row">
             <div className="col-xl-4 col-md-6 floating">
-              <div
+              <Link
+                to="/cloud-services"
                 className="feature-s2 active wow animate__animated animate__fadeInLeft"
                 data-wow-duration="1.5s"
                 data-wow-delay=".5s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -26,22 +28,22 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/cloud-services">Cloud Services</Link>
-                  </h4>
+                  <h4>Cloud Services</h4>
                   <p>
-                    End-to-end cloud solutions for seamless migration,
-                    automation, and optimized, secure, scalable operations.
+                    End-to-end cloud solutions for seamless migration, automation,
+                    and optimized, secure, scalable operations.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="col-xl-4 col-md-6">
-              <div
+              <Link
+                to="/devops-and-sre"
                 className="feature-s2 wow animate__animated animate__fadeInLeft"
                 data-wow-duration="1.5s"
                 data-wow-delay="1s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -50,22 +52,22 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/devops-and-sre">DevOps &amp; SRE</Link>
-                  </h4>
+                  <h4>DevOps &amp; SRE</h4>
                   <p>
                     Automating workflows and boosting reliability for faster,
                     stable software delivery.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="col-xl-4 col-md-6">
-              <div
+              <Link
+                to="/devsecops-and-security"
                 className="feature-s2 wow animate__animated animate__fadeInLeft"
                 data-wow-duration="1.5s"
                 data-wow-delay="1.5s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -74,24 +76,22 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/devsecops-and-security">
-                      DevSevOps &amp; Security
-                    </Link>
-                  </h4>
+                  <h4>DevSecOps &amp; Security</h4>
                   <p>
                     Integrating security into DevOps workflows to ensure safe,
                     compliant, and resilient software delivery.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="col-xl-4 col-md-6">
-              <div
+              <Link
+                to="/consulting-and-advisory"
                 className="feature-s2 wow animate__animated animate__fadeInRight"
                 data-wow-duration="1.5s"
                 data-wow-delay="2s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -100,24 +100,22 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/consulting-and-advisory">
-                      Consulting &amp; Advisory
-                    </Link>
-                  </h4>
+                  <h4>Consulting &amp; Advisory</h4>
                   <p>
                     Providing expert guidance to optimize strategies, improve
                     operations, and drive business growth.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="col-xl-4 col-md-6">
-              <div
+              <Link
+                to="/data-and-ai-services"
                 className="feature-s2 wow animate__animated animate__fadeInRight"
                 data-wow-duration="1.5s"
                 data-wow-delay="2.5s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -126,22 +124,22 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/data-and-ai-services">Data &amp; AI Services</Link>
-                  </h4>
+                  <h4>Data &amp; AI Services</h4>
                   <p>
                     Leveraging data and AI to deliver actionable insights,
                     smarter decisions, and innovative business solutions.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="col-xl-4 col-md-6">
-              <div
+              <Link
+                to="/resource-hiring"
                 className="feature-s2 wow animate__animated animate__fadeInRight"
                 data-wow-duration="1.5s"
                 data-wow-delay="3s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
                 <div className="icon">
                   <img
@@ -150,16 +148,15 @@ const AllServices: React.FC = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>
-                    <Link to="/resource-hiring">Resource Hiring</Link>
-                  </h4>
+                  <h4>Resource Hiring</h4>
                   <p>
                     Providing skilled IT professionals on-demand to strengthen
                     teams and accelerate project delivery.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
+
           </div>
         </div>
       </section>

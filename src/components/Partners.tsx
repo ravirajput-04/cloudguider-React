@@ -10,24 +10,73 @@ function Partners() {
                     </div>
                     <div className="row">
                         <div className="sponsers-container">
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/aws.png" alt="" />
-                            </div>
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/azure.png" alt="" />
-                            </div>
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/gcp.png" alt="" />
-                            </div>
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/ibm.png" alt="" />
-                            </div>
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/oracle.png" alt="" />
-                            </div>
-                            <div className="s-sponser">
-                                <img src="assets/images/cloud-guider/cloud-platforms/cloudflare.png" alt="" />
-                            </div>
+                            <a
+                                href="https://aws.amazon.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/aws.png"
+                                    alt="AWS"
+                                />
+                            </a>
+
+                            <a
+                                href="https://azure.microsoft.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/azure.png"
+                                    alt="Azure"
+                                />
+                            </a>
+                            <a
+                                href="https://cloud.google.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/gcp.png"
+                                    alt="GCP"
+                                />
+                            </a>
+                            <a
+                                href="https://www.ibm.com/cloud"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/ibm.png"
+                                    alt="IBM"
+                                />
+                            </a>
+                            <a
+                                href="https://www.oracle.com/cloud/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/oracle.png"
+                                    alt="Oracle"
+                                />
+                            </a>
+                            <a
+                                href="https://www.cloudflare.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="s-sponser"
+                            >
+                                <img
+                                    src="assets/images/cloud-guider/cloud-platforms/cloudflare.png"
+                                    alt="Cloudflare"
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>

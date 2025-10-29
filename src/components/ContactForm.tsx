@@ -63,7 +63,6 @@ const ContactForm: React.FC = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors, isSubmitting, isValid },
     reset,
   } = useForm<ContactFormValues>({
@@ -71,13 +70,6 @@ const ContactForm: React.FC = () => {
     mode: "onChange",
     reValidateMode: "onBlur",
   });
-
-  // Watch subject and message for live counters
-  const subjectValue = watch("subject") || "";
-  const messageValue = watch("message") || "";
-
-  const getWordCount = (text: string) =>
-    text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
 
   const onSubmit = async (data: ContactFormValues) => {
     try {
@@ -108,86 +100,87 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-        <div className="contact-form-s1">
-          <form onSubmit={handleSubmit(onSubmit)} noValidate>
-            {/* Name */}
-            <input
-              type="text"
-              placeholder="Your Name*"
-              {...register("name")}
-              className={`form-control ${errors.name ? "is-invalid" : ""}`}
-            />
-            {errors.name && (
-              <p className="form-error text-danger mt-1">{errors.name.message}</p>
-            )}
+      <div className="contact-form-s1">
+        <form onSubmit={handleSubmit(onSubmit)} noValidate>
+          {/* Name */}
+          <input
+            type="text"
+            placeholder="Your Name*"
+            {...register("name")}
+            className={`form-control ${errors.name ? "is-invalid" : ""}`}
+          />
+          {errors.name && (
+            <p className="form-error text-danger mt-1">{errors.name.message}</p>
+          )}
 
-            {/* Phone */}
-            <input
-              type="text"
-              placeholder="Phone Number*"
-              {...register("number")}
-              className={`form-control ${errors.number ? "is-invalid" : ""}`}
-            />
-            {errors.number && (
-              <p className="form-error text-danger mt-1">{errors.number.message}</p>
-            )}
+          {/* Phone */}
+          <input
+            type="text"
+            placeholder="Phone Number*"
+            {...register("number")}
+            className={`form-control ${errors.number ? "is-invalid" : ""}`}
+          />
+          {errors.number && (
+            <p className="form-error text-danger mt-1">
+              {errors.number.message}
+            </p>
+          )}
 
-            {/* Email */}
-            <input
-              type="email"
-              placeholder="Your Email*"
-              {...register("email")}
-              className={`form-control ${errors.email ? "is-invalid" : ""}`}
-            />
-            {errors.email && (
-              <p className="form-error text-danger mt-1">{errors.email.message}</p>
-            )}
+          {/* Email */}
+          <input
+            type="email"
+            placeholder="Your Email*"
+            {...register("email")}
+            className={`form-control ${errors.email ? "is-invalid" : ""}`}
+          />
+          {errors.email && (
+            <p className="form-error text-danger mt-1">
+              {errors.email.message}
+            </p>
+          )}
 
-            {/* Subject */}
-            <input
-              type="text"
-              placeholder="Your Subject*"
-              {...register("subject")}
-              className={`form-control ${errors.subject ? "is-invalid" : ""}`}
-            />
-            <div className="d-flex justify-content-between mt-1">
-              {errors.subject && (
-                <p className="form-error text-danger">{errors.subject.message}</p>
-              )}
-              <small className="text-muted">{getWordCount(subjectValue)} words</small>
-            </div>
+          {/* Subject */}
+          <input
+            type="text"
+            placeholder="Your Subject*"
+            {...register("subject")}
+            className={`form-control ${errors.subject ? "is-invalid" : ""}`}
+          />
+          {errors.subject && (
+            <p className="form-error text-danger mt-1">
+              {errors.subject.message}
+            </p>
+          )}
 
-            {/* Message */}
-            <textarea
-              cols={30}
-              rows={6}
-              placeholder="Message here..."
-              {...register("message")}
-              className={`form-control ${errors.message ? "is-invalid" : ""}`}
-            />
-            <div className="d-flex justify-content-between mt-1">
-              {errors.message && (
-                <p className="form-error text-danger">{errors.message.message}</p>
-              )}
-              <small className="text-muted">{getWordCount(messageValue)} words</small>
-            </div>
+          {/* Message */}
+          <textarea
+            cols={30}
+            rows={6}
+            placeholder="Message here..."
+            {...register("message")}
+            className={`form-control ${errors.message ? "is-invalid" : ""}`}
+          />
+          {errors.message && (
+            <p className="form-error text-danger mt-1">
+              {errors.message.message}
+            </p>
+          )}
 
-            {/* Submit Button */}
-            <button
-              type="submit"
-              disabled={isSubmitting || !isValid}
-              className="btn btn-primary mt-3"
-              style={{
-                opacity: isSubmitting || !isValid ? 0.6 : 1,
-                cursor: isSubmitting || !isValid ? "not-allowed" : "pointer",
-                transition: "all 0.3s ease",
-              }}
-            >
-              {isSubmitting ? "Sending..." : "Submit"}
-            </button>
-          </form>
-        </div>
-      
+          {/* Submit Button */}
+          <button
+            type="submit"
+            disabled={isSubmitting || !isValid}
+            className="btn btn-primary mt-3"
+            style={{
+              opacity: isSubmitting || !isValid ? 0.6 : 1,
+              cursor: isSubmitting || !isValid ? "not-allowed" : "pointer",
+              transition: "all 0.3s ease",
+            }}
+          >
+            {isSubmitting ? "Sending..." : "Submit"}
+          </button>
+        </form>
+      </div>
 
       <ToastContainer
         position="top-center"

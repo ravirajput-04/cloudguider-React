@@ -442,14 +442,14 @@ progress {
 @media (min-width: 576px) {
   .container-sm,
   .container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media (min-width: 768px) {
   .container-md,
   .container-sm,
   .container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media (min-width: 992px) {
@@ -457,7 +457,7 @@ progress {
   .container-md,
   .container-sm,
   .container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media (min-width: 1200px) {
@@ -467,7 +467,7 @@ progress {
   .container-sm,
   .container {
     /* max-width: 1140px; */
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media (min-width: 1400px) {
@@ -478,7 +478,7 @@ progress {
   .container-sm,
   .container {
     /* max-width: 1194px; */
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 .row {

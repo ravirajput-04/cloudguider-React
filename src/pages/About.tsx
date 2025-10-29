@@ -5,6 +5,7 @@ import Counter from "../components/Counter"
 import Partners from "../components/Partners"
 import Specialities from "../components/Specialities"
 import Testimonial from "../components/Testimonial"
+import { Link } from "react-router-dom"
 
 function About() {
   return (
@@ -42,9 +43,14 @@ function About() {
               </p>
               {/* Buttons */}
               <div className="about-buttons">
-                <a href="services.html" className="about-btn">Our Services</a>
-                <a href="contact.html" className="about-btn">Contact Us</a>
+                <Link to="/services" className="about-btn">
+                  Our Services
+                </Link>
+                <Link to="/contact" className="about-btn">
+                  Contact Us
+                </Link>
               </div>
+
             </div>
             {/* Right images */}
             <div className="about-image-wrapper">
@@ -132,48 +138,78 @@ function About() {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="feature-s1 wow animate__animated animate__fadeInUp" data-wow-duration="1.5s">
+              <Link
+                to="/services"
+                className="feature-s1 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1.5s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
+              >
                 <div className="icon">
-                  <img src="assets\images\cloud-guider\tab\Tally.png" alt="img" />
+                  <img
+                    src="assets/images/cloud-guider/tab/Tally.png"
+                    alt="tally-on-cloud"
+                  />
                 </div>
                 <div className="content">
-                  <h4><a href="services.html">Tally on Cloud</a></h4>
+                  <h4>Tally on Cloud</h4>
                   <p>
-                    Using tally on Cloud can be <strong>connected to your finance from anywhere,</strong> anytime. Works
-                    seamlessly over the
-                    internet in a distributed manner across multiple business locations.
+                    Using Tally on Cloud can be <strong>connected to your finance from anywhere,</strong> anytime. Works
+                    seamlessly over the internet in a distributed manner across multiple business locations.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
+
             <div className="col-lg-4 col-md-6">
-              <div className="feature-s1 wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+              <Link
+                to="/services"
+                className="feature-s1 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1.5s"
+                data-wow-delay="1s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
+              >
                 <div className="icon">
-                  <img src="assets\images\cloud-guider\tab\Hemi-remote.png" alt="img" />
+                  <img
+                    src="assets/images/cloud-guider/tab/Hemi-remote.png"
+                    alt="hemi-remote"
+                  />
                 </div>
                 <div className="content">
-                  <h4><a href="services.html">Hemi Remote</a></h4>
+                  <h4>Hemi Remote</h4>
                   <p>
-                    <strong>Client Less Remote Desktop Gateway,</strong> It allows Admin to take control of a remote
-                    computer via a modern web browser &amp; The server runs on most Linux distributions.
+                    <strong>Client-less Remote Desktop Gateway</strong> — it allows Admin to
+                    take control of a remote computer via a modern web browser. The server
+                    runs on most Linux distributions.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
+
             <div className="col-lg-4 col-md-6">
-              <div className="feature-s1 wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">
+              <Link
+                to="/services"
+                className="feature-s1 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1.5s"
+                data-wow-delay="2s"
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
+              >
                 <div className="icon">
-                  <img src="assets\images\cloud-guider\tab\Managed-cloud.png" alt="img" />
+                  <img
+                    src="assets/images/cloud-guider/tab/Managed-cloud.png"
+                    alt="managed-cloud-desktop-vdi"
+                  />
                 </div>
                 <div className="content">
-                  <h4><a href="services.html">Managed Cloud Desktop (VDI)</a></h4>
+                  <h4>Managed Cloud Desktop (VDI)</h4>
                   <p>
-                    <strong>Cloud Desktop</strong> allows for multiple users to essentially share one operating
-                    system to run multiple desktops with Full Uptime &amp; without managing on-premises servers.
+                    <strong>Cloud Desktop</strong> allows multiple users to share one
+                    operating system and run multiple desktops with full uptime — without
+                    managing on-premises servers.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
+
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ const NotFound: React.FC = () => {
           <div className="container">
             <div className="row">
               <div className="content">
-                <h1>Error</h1>
+                <h2>Error</h2>
                 <ul className="breadcrumb">
                   <li>
                     <NavLink to="/" className="text-decoration-none">

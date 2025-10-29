@@ -73,6 +73,7 @@ const SubServicesStructure: React.FC<SubServicesStructureProps> = ({ content }) 
                 className="bg-white rounded shadow p-4"
                 style={{
                   backdropFilter: "blur(10px)",
+                  borderRadius: "25px",
                   backgroundColor: "rgba(255, 255, 255, 0.95)"
                 }}
               >
