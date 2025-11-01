@@ -113,8 +113,8 @@ function App() {
             <Route path="hire-data-and-ai-engineers" element={<HireDataAndAIEngineers />} />
             <Route path="hire-technical-consultants" element={<HireTechnicalConsultants />} />
             {/*Catch all - replace with 404 component if you have one*/}
-            <Route path="*" element={<NotFound />} />
           </Route>
+            <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </CookiesProvider>

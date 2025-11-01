@@ -28,8 +28,13 @@ function closeNav() {
   offcanvasContainer.classList.remove("open");
 }
 
-openBtn.addEventListener("click", openNav);
-closeBtn.addEventListener("click", closeNav);
+if (openBtn) {
+  openBtn.addEventListener("click", openNav);
+}
+
+if (closeBtn) {
+  closeBtn.addEventListener("click", closeNav);
+}
 
 // tabs
 const tabButtons = document.querySelectorAll(".tab-btn");
@@ -133,15 +138,21 @@ if (cursor !== null) {
 }
 
 // Home 6 Search box
-const headerSearchBtn = document.querySelector(".header-search-btn");
-const searchWhite = document.querySelector(".search-white");
-const searchFormMain = document.querySelector(".search-form-main");
+document.addEventListener("DOMContentLoaded", () => {
+  const headerSearchBtn = document.querySelector(".header-search-btn");
+  const searchWhite = document.querySelector(".search-white");
+  const searchFormMain = document.querySelector(".search-form-main");
 
-headerSearchBtn.addEventListener("click", ()=> {
-  searchFormMain.classList.toggle("active-search");
-  if (searchFormMain.classList.contains("active-search")) {
-    searchWhite.src = "assets/images/icons/x-lg.svg";
-  } else {
-    searchWhite.src = "assets/images/icons/search-white.svg";
-  };
+  // Only attach listener if element exists
+  if (headerSearchBtn && searchFormMain && searchWhite) {
+    headerSearchBtn.addEventListener("click", () => {
+      searchFormMain.classList.toggle("active-search");
+
+      if (searchFormMain.classList.contains("active-search")) {
+        searchWhite.src = "assets/images/icons/x-lg.svg";
+      } else {
+        searchWhite.src = "assets/images/icons/search-white.svg";
+      }
+    });
+  }
 });

@@ -5651,7 +5651,7 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
   line-height: 80px;
   color: #1c1c1c;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .hero-s3__content .content-d {
@@ -6358,7 +6358,7 @@ footer .footer-cr .footer-cr-container ul.cr-menu li:last-child {
 
 .about-s4__content .s-title,
 .about-s6__content .s-title {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .about-s4__content .desc,
@@ -8965,13 +8965,13 @@ body#blog .b-pagination {
   }
 
   .hero-s3__content .content-h {
-    font-size: 45px;
+    font-size: 30px;
     line-height: 60px;
   }
 
   .hero-s3__content .content-sh {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .hero-s3__content .content-d {
@@ -9885,13 +9885,13 @@ body#blog .b-pagination {
   }
 
   .hero-s3__content .content-sh {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 34px;
   }
 
   .hero-s3__content .content-h {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 35px;
   }
 
   .hero-s8 {
@@ -9943,13 +9943,14 @@ body#blog .b-pagination {
   }
 
   .s-sub-title {
-    font-size: 17px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 40px;
   }
 
   .s-title {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .about-s4__content .content-b,
@@ -10385,7 +10386,7 @@ body#blog .b-pagination {
   }
 
   .s-title {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .pricing-section-s7 {
@@ -11231,9 +11232,9 @@ body#blog .b-pagination {
 }
 
 .cloud-services-row {
-  padding-top: 30px;
+  padding-top: 20px;
   /* padding inside each section top */
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   /* padding inside each section bottom */
   /* Bootstrap's mb-5 adds margin-bottom for spacing between rows */
   border-bottom: 1px solid #ddd;
