@@ -11797,3 +11797,57 @@ input:checked + .cookies-category-slider:before {
     text-align: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ===========================================
+   Responsive Font Sizes for Header Navigation
+   =========================================== */
+
+.m-nav > ul > li {
+  padding: 7px 0;
+  color: #000;
+  transition: all 0.1s ease-in-out;
+}
+
+/* Default for large screens (above 1600px) */
+@media only screen and (min-width: 1601px) {
+  .m-nav > ul > li {
+    font-size: 18px;
+  }
+}
+
+/* 1501px to 1600px */
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+  .m-nav > ul > li {
+    font-size: 16px;
+  }
+}
+
+/* 1351px to 1500px */
+@media only screen and (min-width: 1351px) and (max-width: 1500px) {
+  .m-nav > ul > li {
+    font-size: 14px;
+  }
+}
+
+/* 1201px to 1350px */
+@media only screen and (min-width: 1201px) and (max-width: 1350px) {
+  .m-nav > ul > li {
+    font-size: 11px;
+  }
+}
+
+/* Below 1200px - mobile overlay */
+@media only screen and (max-width: 1200px) {
+  .m-nav > ul > li {
+    font-size: 16px; /* or whatever suits your mobile overlay */
+  }
+}
