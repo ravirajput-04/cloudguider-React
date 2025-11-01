@@ -12,6 +12,7 @@
   "dependencies": {
     "@dr.pogodin/react-helmet": "^3.0.4",
     "@hookform/resolvers": "^5.2.2",
+    "axios": "^1.13.1",
     "gsap": "^3.13.0",
     "jquery": "^3.7.1",
     "react": "^19.1.1",
